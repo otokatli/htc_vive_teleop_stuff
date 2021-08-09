@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 from trac_ik_python.trac_ik import IK
 from numpy.random import random
