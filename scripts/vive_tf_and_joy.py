@@ -267,9 +267,8 @@ if __name__ == '__main__':
         r.sleep()
         poses = poses_t()
         vrsystem.getDeviceToAbsoluteTrackingPose(
-            openvr.TrackingUniverseStanding,
+            openvr.TrackingUniverseSeated,
             0,
-            len(poses),
             poses)
 
         now = rospy.Time.now()
